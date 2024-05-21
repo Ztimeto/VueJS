@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  .header img {
+    height: 40px;
+    margin: 10px;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .table th, .table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  .table th {
+    background-color: #f0f0f0;
+  }
+  .button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .total-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .total-row label {
+    display: inline-block;
+    width: 120px;
+  }
+
+  .total-row input[type="text"],
+  .total-row input[type="number"] {
+    width: calc(100% - 120px);
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  .total-row input[type="text"]:disabled,
+  .total-row input[type="number"]:disabled {
+    background-color: #f2f2f2;
+  }
+
+  .total-row input[type="number"]::-webkit-inner-spin-button,
+  .total-row input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
